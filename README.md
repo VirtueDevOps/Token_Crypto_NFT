@@ -8,3 +8,6 @@ NFTMintApp:
 This contract defines an NFTMintable contract that extends the SafeERC721 contract from the OpenZeppelin library. It has a public owner state variable that is an externally owned account, and is initialized to the contract creator in the constructor function. The mint function has been updated to send the Ether funds to the owner's address after minting the new NFT.
 
 
+
+TradinBot:
+Node.js script that swaps Ether for USDC tokens using the Uniswap smart contracts directly on the Ethereum blockchain, using the Ethers.js library to connect to the blockchain with Infura.
