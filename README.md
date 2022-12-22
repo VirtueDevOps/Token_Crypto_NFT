@@ -5,7 +5,7 @@ This contract defines a VirtueToken contract that extends the SafeERC20 contract
 
 
 NFTMintApp:
-This contract defines an NFTMintable contract that extends the SafeERC721 contract from the OpenZeppelin library. It has a public owner state variable that is an externally owned account, and is initialized to the contract creator in the constructor function. The mint function has been updated to send the Ether funds to the owner's address after minting the new NFT.
+Small project that shows an NFTMintable contract that extends the SafeERC721 contract from the OpenZeppelin library. It has a public owner state variable that is an externally owned account, and is initialized to the contract creator in the constructor function. The mint function has been updated to send the Ether funds to the owner's address after minting the new NFT.
 
 
 
